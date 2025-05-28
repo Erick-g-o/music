@@ -1,8 +1,8 @@
-html,body {
+body {
       height: 100%;
       width: 100%;
       margin: auto;
-      font-family: Arial;
+      font-family: 'Montserrat', sans-serif;
 }
 .banner {
     background: url("../assets/images/angel.jpg") no-repeat center center/cover;
@@ -13,12 +13,13 @@ html,body {
     margin: auto;
   }
   .banner h1 {
-    font-size: 120px;
+    font-size: 200px;
     margin-bottom: 60px;
     margin: 20px;
   }
 
   .margen2 {
+    
     width: 50%;
     padding: 100px;
     margin: 100px;
@@ -27,7 +28,7 @@ html,body {
     left: 50px;
   }
   .imagen2{
-    width:50%;
+    width:60%;
     height: 100%;
     position: absolute;
     left: 1000px;
@@ -39,7 +40,7 @@ html,body {
   }
   .gradient-text {
   font-weight: bold;
-  font-size: 60px;
+  font-size: 80px;
   background: linear-gradient(to right, #ff4b4b, #d41490); /* rojo a rosa */
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -49,6 +50,7 @@ html,body {
     font-size: 20px;
     margin-top: 70px;
     color: #333;
+    line-height: 2.0;
 }
 .margen2 button {
     margin-top: 20px;
@@ -60,4 +62,134 @@ html,body {
     cursor: pointer;
     border-radius: 100px;
     border: none;
+}
+.margen3{
+    width: 40%;
+    padding: 200px;
+    position: absolute;
+    margin-top: 500px;
+}
+.imagen3 {
+    width:85%;
+    height: 40%;
+    position: relative;
+    left: 10px;
+    top: -140px;
+}
+.margen3 h1 {
+    font-size: 60px;  
+    margin-bottom: -40px;
+    line-height: 1.7;
+    position: relative;
+    left: 900px;
+    top: 450px;
+}
+.gradient {
+  font-weight: bold;
+  font-size: 60px;
+  background: linear-gradient(to right, #ff4b4b, #d41490); /* rojo a rosa */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.margen3 p {
+    width:80%;
+    font-size: 20px;
+    color: #333;
+    position: relative;
+    left: 900px;
+    top : 500px;
+    line-height: 2.0;
+}
+.margen3 button {
+    position: absolute;
+    margin-top: 520px;
+    width: 20%;
+    padding: 20px;
+    background-color: rgb(253, 76, 92);
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 100px;
+    border: none;
+    left: 93%;
+}
+.margen4{
+    width: 100%;
+    background: url("../assets/images/raptis.png") no-repeat center center/cover;
+    color: #fff;
+    padding: 200px 0;
+    background-size: cover;
+    margin: auto;
+    position: relative;
+    top: 2000px;
+}
+.margen4 h1 {
+    width: 30%;
+    padding: 10px;
+    font-size: 60px;
+    margin-bottom: -40px;
+    position: relative;
+    top: -50px;
+    left: 1000px;
+}
+.margen4 p {
+    width: 40%;
+    font-size: 25px;
+    margin-top: 60px;
+    color: #fff;
+    position: relative;
+    top: -50px;
+    left: 1000px;
+    line-height: 2.0;
+}
+.margen4 button {
+    position: absolute;
+    margin-top: 1px;
+    width: 15%;
+    padding: 30px;
+    background-color: rgb(253, 76, 92);
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 100px;
+    border: none;
+    left: 52%;
+}
+footer {
+  background: rgb(253, 76, 92);
+  color: white;
+  padding: 50px 20px 20px;
+  position: relative;
+  top: 2000px;
+}
+
+.footer-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 40px;
+}
+
+.footer-column h4 {
+  margin-bottom: 10px;
+  line-height: 4.0;
+}
+
+.footer-column p {
+  margin: 6px 0;
+  line-height: 2.0;
+}
+
+.footer-bottom {
+  border-top: 1px solid rgba(255, 255, 255, 0.3);
+  text-align: center;
+  padding-top: 20px;
+  font-size: 14px;
+  margin-top: 30px;
+}
+
+.footer-bottom span {
+  display: block;
+  margin-top: 5px;
 }
